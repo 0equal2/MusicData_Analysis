@@ -1,6 +1,6 @@
 # MusicData Analysis for Recommendation
 
-음악 데이터 특징 분석으로 유사 음악 찾기를 목표한다.
+음악 데이터 특징 분석으로 유사 음악 찾기를 목표한다.  
 -- https://0equal2.tistory.com/133?category=478380
 
 
@@ -17,8 +17,9 @@
 
 
 ## 1-1. Data File Load
-- [Data collect](https://0equal2.tistory.com/136)
--- ![result](result_image/MusicData_load_2-1.PNG)
+- [Data collect](https://0equal2.tistory.com/136)  
+  
+![result](result_image/MusicData_load_2-1.PNG)
 
 
 - Import library
@@ -37,8 +38,9 @@ import pandas as pd
 # music_inform.csv 
 origin_music=pd.read_csv('music_inform.csv')
 ```
-수집한 데이터에서 곡ID(ID)와 곡의 위치 열만 추출(path)
--- ![result](result_image/MusicData_load_3-1.PNG)
+수집한 데이터에서 곡ID(ID)와 곡의 위치 열만 추출(path) 
+  
+![result](result_image/MusicData_load_3-1.PNG)
 
 
 ## 1-2. Feature Analysis
@@ -156,9 +158,9 @@ for i in range(n):
 
 우선 각 특징에 대해서 시퀀스 흐름 유사비교하여 유사곡 5곡씩을 뽑아보았다.
 [music_id, recom1, recom2, recom3, recom4, recom5]
-기준곡(music_id)에 대해서 추천곡 5개(reocm1~5) 결과를 csv형태의 파일로 저장하였다.
+기준곡(music_id)에 대해서 추천곡 5개(reocm1~5) 결과를 csv형태의 파일로 저장하였다.  
 
--- ![result](result_image/MusicData_recommendation.PNG)
+![result](result_image/MusicData_recommendation.PNG)
 
 
 
