@@ -18,7 +18,7 @@
 
 ## 1-1. Data File Load
 - [Data collect](https://0equal2.tistory.com/136)
--- ![result]<result_image/MusicData_load_2-1.PNG>
+-- ![result](result_image/MusicData_load_2-1.PNG)
 
 
 - Import library
@@ -38,7 +38,7 @@ import pandas as pd
 origin_music=pd.read_csv('music_inform.csv')
 ```
 수집한 데이터에서 곡ID(ID)와 곡의 위치 열만 추출(path)
--- ![result]<result_image/MusicData_load_2-1.PNG>
+-- ![result](result_image/MusicData_load_3-1.PNG)
 
 
 ## 1-2. Feature Analysis
