@@ -18,7 +18,7 @@ https://0equal2.tistory.com/133?category=478380
 
 ## 1-1. Data File Load
 - [Data collect](https://0equal2.tistory.com/136)
-![result](result_image/MusicData_load_2-1.PNG)
+- ![result](result_image/MusicData_load_2-1.PNG)
 
 
 - Import library
